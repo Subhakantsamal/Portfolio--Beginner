@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Subhakant - Portfolio</title>
+
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav container">
+    <h2 class="logo">Subhakant</h2>
+
+    <ul class="nav-menu">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <a href="./assets/Subhakant_Samal_Resume.pdf" download class="nav-btn">
+      Download CV <i class="ri-file-download-line"></i>
+    </a>
+  </nav>
+</header>
+
+<section class="home container" id="home">
+  <div class="home-content">
+    <h3>Hii, Myself</h3>
+    <h1>Subhakant Samal</h1>
+    <h1>I'm <span>Web Developer</span></h1>
+
+    <p>
+      Passionate frontend developer focused on building clean, responsive and
+      user-friendly websites using modern technologies.
+    </p>
+
+    <div class="home-buttons">
+      <a href="#contact" class="btn primary">Hire Me</a>
+      <a href="./assets/Subhakant_Samal_Resume.pdf" download class="btn secondary">Download CV</a>
+    </div>
+
+     <div class="social-icons">
+      <a href="#"><i class="ri-instagram-line"></i></a>
+      <a href="#"><i class="ri-linkedin-fill"></i></a>
+      <a href="#"><i class="ri-twitter-line"></i></a>
+      <a href="#"><i class="ri-github-fill"></i></a>
+    </div>
+
+  </div>
+
+  <div class="home-img">
+    <img src="./assets/PHOTO.jpg" alt="Subhakant">
+  </div>
+</section>
+
+<section class="about container" id="about">
+  <h2 class="section-title">About Me</h2>
+
+  <div class="about-wrapper">
+    <div class="about-card">
+      <h3>My introduction</h3>
+      <p>
+        I'm Computer Science undergraduate with hands-on experience in full-stack web development. Skilled in translating 
+        requirements into user-friendly solutions using Java, Python, and SQL-based systems. Strong problem-solving and 
+        collaboration skills, with a focus on building reliable, scalable applications.
+      </p>
+
+      <a href="./assets/Subhakant_Samal_Resume.pdf" download class="btn primary about-btn">
+        Download CV <i class="ri-download-line"></i>
+      </a>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skills-column">
+        <h4>Frontend</h4>
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">React</span>
+      </div>
+
+      <div class="skills-column">
+        <h4>Backend</h4>
+        <span class="tag">JDBC</span>
+        <span class="tag">Servlets</span>
+        <span class="tag">Java</span>
+      </div>
+
+      <div class="skills-column">
+        <h4>Database</h4>
+        <span class="tag">MongoDB</span>
+        <span class="tag">SQL</span>
+        <span class="tag">MySQL</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="projects container" id="projects" aria-label="Projects">
+  <h2 class="section-title">My Projects</h2>
+
+  <div class="project-grid">
+    <!-- Project 1 -->
+    <article class="project-card">
+      <img class="project-image" src="./assets/project-1.png" alt="Expense Tracker screenshot">
+      <div class="project-name">Expense Tracker</div>
+
+      <div class="project-overlay">
+        <h3>Expense Tracker</h3>
+        <p>Built a secure desktop application with user authentication and optimized CRUD operations using JDBC and MySQL. Designed efficient SQL queries and modular Java code to improve performance and maintainability, and thoroughly tested and debugged workflows to ensure reliable functionality.</p>
+
+        <div class="project-links">
+          <a class="project-link" href="https://github.com/Subhakantsamal/Expense-Tech" target="_blank" rel="noopener noreferrer">Repo</a>
+          <a class="project-link" href="https://expense-tech.vercel.app/" target="_blank" rel="noopener noreferrer">Live</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="project-card">
+      <img class="project-image" src="./assets/Project_2.jpg" alt="Password generator screenshot">
+      <div class="project-name">Random Password Generator</div>
+
+      <div class="project-overlay">
+        <h3>Random Password Generator</h3>
+        <p>Lightweight web tool that generates secure, randomized passwords with selectable length and a live strength indicator. Implements modular JavaScript for secure randomization and one-click copy, and a clean, accessible UI for smooth user interaction.</p>
+
+        <div class="project-links">
+          <a class="project-link" href="https://github.com/Subhakantsamal/Random_Password_Generator_main" target="_blank" rel="noopener noreferrer">Repo</a>
+          <a class="project-link" href="https://get4password.vercel.app/" target="_blank" rel="noopener noreferrer">Live</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 3 -->
+    <article class="project-card">
+      <img class="project-image" src="./assets/project-3.jpg" alt="Portfolio website screenshot">
+      <div class="project-name">Personal Portfolio Website</div>
+
+      <div class="project-overlay">
+        <h3>Personal Portfolio Website</h3>
+        <p>A modern, responsive portfolio website built using HTML, CSS, and JavaScript. Includes smooth navigation, animated UI, project cards with hover effects, and a clean personal branding layout. Designed to showcase skills, experience, and projects with a professional look.</p>
+
+        <div class="project-links">
+          <a class="project-link" href="https://github.com/Subhakantsamal/Portfolio--Beginner" target="_blank" rel="noopener noreferrer">Repo</a>
+          <a class="project-link" href="https://your-portfolio-url.com" target="_blank" rel="noopener noreferrer">Live</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+<section class="contact container" id="contact">
+  <h2 class="contact-title">Get in touch</h2>
+  <p class="contact-subtitle">Do you have a project in your mind, or Any Queries !? contact me here</p>
+
+  <div class="contact-wrapper">
+    <div class="contact-card">
+      <div class="overlay"></div>
+      <h3>Find Me 👇🏽</h3>
+      <p class="email">
+        <i class="ri-mail-line"></i> subhakantsamal101@gmail.com
+      </p>
+    </div>
+
+    <form class="contact-form">
+      <div class="input-row">
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+      </div>
+
+      <textarea placeholder="Message"></textarea>
+
+      <button class="send-btn">
+        Send <i class="ri-send-plane-2-line"></i>
+      </button>
+    </form>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <p>© 2025 Subhakant. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
